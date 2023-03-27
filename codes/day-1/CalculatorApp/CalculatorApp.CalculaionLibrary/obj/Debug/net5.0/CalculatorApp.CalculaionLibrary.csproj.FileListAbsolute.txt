@@ -1,0 +1,14 @@
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\CalculatorApp\CalculatorApp.CalculaionLibrary\bin\Debug\net5.0\CalculatorApp.CalculaionLibrary.deps.json
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\CalculatorApp\CalculatorApp.CalculaionLibrary\bin\Debug\net5.0\CalculatorApp.CalculaionLibrary.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\CalculatorApp\CalculatorApp.CalculaionLibrary\bin\Debug\net5.0\CalculatorApp.CalculaionLibrary.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\CalculatorApp\CalculatorApp.CalculaionLibrary\bin\Debug\net5.0\CalculatorApp.CalculaionLibrary.xml
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\CalculatorApp\CalculatorApp.CalculaionLibrary\obj\Debug\net5.0\CalculatorApp.CalculaionLibrary.csproj.AssemblyReference.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\CalculatorApp\CalculatorApp.CalculaionLibrary\obj\Debug\net5.0\CalculatorApp.CalculaionLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\CalculatorApp\CalculatorApp.CalculaionLibrary\obj\Debug\net5.0\CalculatorApp.CalculaionLibrary.AssemblyInfoInputs.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\CalculatorApp\CalculatorApp.CalculaionLibrary\obj\Debug\net5.0\CalculatorApp.CalculaionLibrary.AssemblyInfo.cs
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\CalculatorApp\CalculatorApp.CalculaionLibrary\obj\Debug\net5.0\CalculatorApp.CalculaionLibrary.csproj.CoreCompileInputs.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\CalculatorApp\CalculatorApp.CalculaionLibrary\obj\Debug\net5.0\CalculatorApp.CalculaionLibrary.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\CalculatorApp\CalculatorApp.CalculaionLibrary\obj\Debug\net5.0\refint\CalculatorApp.CalculaionLibrary.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\CalculatorApp\CalculatorApp.CalculaionLibrary\obj\Debug\net5.0\CalculatorApp.CalculaionLibrary.xml
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\CalculatorApp\CalculatorApp.CalculaionLibrary\obj\Debug\net5.0\CalculatorApp.CalculaionLibrary.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\CalculatorApp\CalculatorApp.CalculaionLibrary\obj\Debug\net5.0\ref\CalculatorApp.CalculaionLibrary.dll

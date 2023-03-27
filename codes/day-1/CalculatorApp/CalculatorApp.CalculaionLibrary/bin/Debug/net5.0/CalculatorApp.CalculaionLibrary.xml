@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CalculatorApp.CalculaionLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:CalculatorApp.CalculaionLibrary.Calculation">
+            <summary>
+            class containing calculation methods
+            </summary>
+        </member>
+        <member name="M:CalculatorApp.CalculaionLibrary.Calculation.Add(System.Int32,System.Int32)">
+            <summary>
+            method to add two numbers
+            </summary>
+            <param name="first">first number to be passed</param>
+            <param name="second">second number to be passed</param>
+            <returns>
+            returns the added result 
+            </returns>
+        </member>
+        <member name="M:CalculatorApp.CalculaionLibrary.Calculation.Subtract(System.Int32,System.Int32)">
+            <summary>
+            method to subtract a number from another
+            </summary>
+            <param name="first">first number to be passed</param>
+            <param name="second">second number to be passed</param>
+            <returns>
+            returns the subtraction result 
+            </returns>
+        </member>
+        <member name="M:CalculatorApp.CalculaionLibrary.Calculation.Multiply(System.Int32,System.Int32)">
+            <summary>
+            method to multtiply a number by another
+            </summary>
+            <param name="first">first number to be passed</param>
+            <param name="second">second number to be passed</param>
+            <returns>
+            returns the multiplication result 
+            </returns>
+        </member>
+        <member name="M:CalculatorApp.CalculaionLibrary.Calculation.Divide(System.Int32,System.Int32)">
+            <summary>
+            method to divide a number by another
+            </summary>
+            <param name="first">first number to be passed</param>
+            <param name="second">second number to be passed</param>
+            <exception cref="T:System.ArgumentException">
+            throws argument exception if the second argument is zero
+            </exception>
+            <returns>
+            returns the division result 
+            </returns>
+        </member>
+    </members>
+</doc>

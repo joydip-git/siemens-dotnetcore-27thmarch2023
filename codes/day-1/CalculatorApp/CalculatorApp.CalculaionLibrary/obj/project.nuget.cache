@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "RDMnRL8IyhWOEgXAucDxO0e+RF+/Q6Rsxdxq5YPZdekLgc3Cj8aMNedyfpHjWVFxcbz+dX9I729z3XHsQBd84Q==",
+  "success": true,
+  "projectFilePath": "E:\\training\\siemens-dotnetcore-27thmarch2023\\codes\\day-1\\CalculatorApp\\CalculatorApp.CalculaionLibrary\\CalculatorApp.CalculaionLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joydip\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\joydip\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
