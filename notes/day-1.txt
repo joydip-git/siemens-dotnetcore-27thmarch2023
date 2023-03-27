@@ -67,3 +67,23 @@ Create a .NET application using C#
 ---------------------------------------------
 a. tool (dotnet)
 b. VS code/Visual Studio
+
+Possible signatures of Main method:
+a.  		static void Main()
+        {
+            Console.WriteLine("Welcome to .NET!");
+        }
+b.  		static void Main(string[] args)
+        {
+            Console.WriteLine("Welcome to .NET!");
+        }
+c.  		static int Main()
+        {
+            Console.WriteLine("Welcome to .NET!");
+				  return 0;
+        }
+d.  		static int Main(string[] args)
+        {
+            Console.WriteLine("Welcome to .NET!");
+				  return 0;
+        }
