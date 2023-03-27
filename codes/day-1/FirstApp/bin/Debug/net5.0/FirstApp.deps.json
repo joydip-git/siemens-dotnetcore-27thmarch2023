@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "FirstApp/1.0.0": {
+        "dependencies": {
+          "FirstLibrary": "1.0.0",
+          "SecondLibrary": "1.0.0.0"
+        },
+        "runtime": {
+          "FirstApp.dll": {}
+        }
+      },
+      "FirstLibrary/1.0.0": {
+        "runtime": {
+          "FirstLibrary.dll": {}
+        }
+      },
+      "SecondLibrary/1.0.0.0": {
+        "runtime": {
+          "SecondLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FirstApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FirstLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SecondLibrary/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

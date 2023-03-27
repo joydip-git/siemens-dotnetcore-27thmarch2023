@@ -87,3 +87,36 @@ d.  		static int Main(string[] args)
             Console.WriteLine("Welcome to .NET!");
 				  return 0;
         }
+
+namespace System{
+	public static class Console{
+		public static void WriteLine(string value){
+		}
+	}
+}
+
+Solution file: logical container of different projects (applications)
+
+Library applications: 
+a. reusable piece of code
+b. no Main method, i.e., you can't run this applicaion
+c. it compiles into .dll file
+
+Executable applicaions: 
+a. stand-alone executable applicaion
+b. contains a Main method, i.e., you can run this application
+c. it compiles into .dll file and also an execuable file is created to host the .dll file
+
+Namespaces:
+a. grouping all co-related types
+b. segregating unrelated types
+
+C#:
+OOP language
+type safe language
+case-sensitive language
+
+a. basics of C#: data types, operators, control flow statements, array etc.
+b. OOP programming in C#: class, object,...
+c. post-oop in C#: collections, exception handling, generics etc.
+d. advanced features: delegates, events, tasks, LINQ etc.

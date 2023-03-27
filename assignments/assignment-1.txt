@@ -1,0 +1,26 @@
+1. create console application, named, "CalculatorApp"
+2. in the application, you need to create four more methods (apart from Main method) in Program class. all of them should be static method.
+
+a. Add:
+		arguments: int, int
+		return type: int
+		description: adds two numbers and returns the result
+
+a. Subtract:
+		arguments: int, int
+		return type: int
+		description: subtracts a number from another and returns the result
+
+a. Divide
+		arguments: int, int
+		return type: int
+		description: divide a number by another and returns the result
+
+a. Multiply:
+		arguments: int, int
+		return type: int
+		description: multiplies a number by another and returns the result
+
+Note:
+	all values should be accepted from user
+	

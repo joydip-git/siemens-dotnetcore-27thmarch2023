@@ -1,0 +1,12 @@
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\FirstLibrary\bin\Debug\net5.0\FirstLibrary.deps.json
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\FirstLibrary\bin\Debug\net5.0\FirstLibrary.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\FirstLibrary\bin\Debug\net5.0\FirstLibrary.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\FirstLibrary\obj\Debug\net5.0\FirstLibrary.csproj.AssemblyReference.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\FirstLibrary\obj\Debug\net5.0\FirstLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\FirstLibrary\obj\Debug\net5.0\FirstLibrary.AssemblyInfoInputs.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\FirstLibrary\obj\Debug\net5.0\FirstLibrary.AssemblyInfo.cs
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\FirstLibrary\obj\Debug\net5.0\FirstLibrary.csproj.CoreCompileInputs.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\FirstLibrary\obj\Debug\net5.0\FirstLibrary.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\FirstLibrary\obj\Debug\net5.0\refint\FirstLibrary.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\FirstLibrary\obj\Debug\net5.0\FirstLibrary.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\FirstLibrary\obj\Debug\net5.0\ref\FirstLibrary.dll
