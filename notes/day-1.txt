@@ -61,3 +61,9 @@ STS: Standard Term Support (5.0, 7.0)
 							.NET Standard
 .NET Framework										.NET
 --------------------------------------------------
+
+
+Create a .NET application using C#
+---------------------------------------------
+a. tool (dotnet)
+b. VS code/Visual Studio

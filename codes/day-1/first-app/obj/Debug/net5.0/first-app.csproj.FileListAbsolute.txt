@@ -1,0 +1,16 @@
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\first-app\bin\Debug\net5.0\first-app.exe
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\first-app\bin\Debug\net5.0\first-app.deps.json
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\first-app\bin\Debug\net5.0\first-app.runtimeconfig.json
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\first-app\bin\Debug\net5.0\first-app.runtimeconfig.dev.json
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\first-app\bin\Debug\net5.0\first-app.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\first-app\bin\Debug\net5.0\first-app.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\first-app\obj\Debug\net5.0\first-app.csproj.AssemblyReference.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\first-app\obj\Debug\net5.0\first-app.GeneratedMSBuildEditorConfig.editorconfig
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\first-app\obj\Debug\net5.0\first-app.AssemblyInfoInputs.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\first-app\obj\Debug\net5.0\first-app.AssemblyInfo.cs
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\first-app\obj\Debug\net5.0\first-app.csproj.CoreCompileInputs.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\first-app\obj\Debug\net5.0\first-app.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\first-app\obj\Debug\net5.0\refint\first-app.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\first-app\obj\Debug\net5.0\first-app.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\first-app\obj\Debug\net5.0\first-app.genruntimeconfig.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\first-app\obj\Debug\net5.0\ref\first-app.dll
