@@ -1,1 +1,63 @@
-acscghscjhsg
+C#: Language
+DotNet: Framework
+
+Microsoft
+
+Framework: Platform, on the top of which we build applications
+
+DotNet Framework:
+compiler tool: CSC, Vbc etc.
+runtime: Common Language Runtime (CLR)
+library: base class/framework class library (BCL/FCL)
+asp.net: a framework/technology to create web application (ActiveX Server Pages .NET)
+ADO.NET: ActiveX Data Object .NET => a technique to interact with databases
+Entity Framework (EF): 
+
+CTS: Common Type System/Specification=> Type system of IL code
+
+what kind of application? web app, desktop, mobile app etc.
+which language: VC#.NET, VB.NET, J#, VC++.NET, etc...
+Editor: VS 2022, VS Code etc.
+
+Console.WriteLine()
+
+Microsoft
+COM (Component Object Model) => 90's
+Vb, Foxpro, VC++
+ASP, (ADO+DAO+RDO)
+
+Java <= C++ 
+
+.NET Framework (Net Enabled Technologies) (Legacy)
+2001/2002 => 1.0
+2019 => 4.8
+
+Cloud development: Azure, AWS, Google services
+
+.Net Core Framework: 2017 1.0=> 1.1 => 2.0 => 2.1=> 3.0=> 3.1
+all platforms: create (develop) and run
+cross-platform
+Open source
+library and source code: github and NuGet
+small pieces of library (modules/packages)
+faster, lightweight and crisp framework
+
+library: Core Library
+runtime: .NET runtime [.NET desktop runtime + asp.net core runtime]
+compiler tools: Roslyn
+
+.NET Framework: 4.8
+.Net Core Framework: 1.0/1.1/2.0/2.1/2.2/3.0/3.1
+.NET Standard: 2.1
+
+.Net Core => .NET
+
+.NET => 5.0/6.0/7.0 (8.0)
+
+LTS: Long Term Support (6.0, 8.0, 10.0...)
+STS: Standard Term Support (5.0, 7.0)
+
+
+							.NET Standard
+.NET Framework										.NET
+--------------------------------------------------
