@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace ArrayDemo
 {
@@ -110,15 +111,64 @@ namespace ArrayDemo
             }
             return sum / marks.Length;
         }
+        static string[] SplitSentence(string sentence)
+        {
+            char[] separators = new char[30];
+            int index = 0;
+            foreach (char value in sentence)
+            {
+                if (!(char.IsLetter(value) || char.IsDigit(value)))
+                {
+                    bool exists = false;
+                    foreach (var item in separators)
+                    {
+                        if (item == value)
+                        {
+                            exists = true;
+                            break;
+                        }
+                    }
+                    if (!exists)
+                    {
+                        separators[index] = value;
+                        index++;
+                    }
+                }
+            }
+            int count = 0;
+            foreach (char item in separators)
+            {
+                if (!(char.MinValue == item))
+                {
+                    count++;
+                }
+            }
+            char[] result= new char[count];
+            int indexresult=0;
+            for (int i = 0; i < separators.Length; i++)
+            {
+                if (!(separators[i] == char.MinValue))
+                {
+                    result[indexresult]=separators[i];
+                    indexresult++;
+                }
+            }
+            
+            return null;
+        }
         static void Main(string[] args)
         {
             //CreateSingleDimensionalArray();
             //CreateTwoDimensionalArray();
             //CreateJaggedArray();
             //params int[] numbers = new int[] { 10, 20, 30 };
-            Console.WriteLine(CalculateAverage("anil", 20, 30));
-            Console.WriteLine(CalculateAverage("sunil", 20, 30, 40));
-            Console.WriteLine(CalculateAverage("ankush", 20, 30, 40, 50, 60));
+            //Console.WriteLine(CalculateAverage("anil", 20, 30));
+            //Console.WriteLine(CalculateAverage("sunil", 20, 30, 40));
+            //Console.WriteLine(CalculateAverage("ankush", 20, 30, 40, 50, 60));
+
+            Console.Write("enter sentence: ");
+            string sentence = Console.ReadLine();
+            SplitSentence(sentence);
         }
     }
 }
