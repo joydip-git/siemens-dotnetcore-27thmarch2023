@@ -68,10 +68,45 @@ namespace ArrayDemo
                 Console.WriteLine("\n");
             }
         }
+        static void CreateJaggedArray()
+        {
+            int[][] jagged = new int[3][];
+            //jagged[0] = new int[] { 10, 20, 30 };
+            //jagged[1] = new int[] { 11, 22, 33, 44, 55 };
+            //jagged[2] = new int[] { 12, 13 };
+            for (int index = 0; index < jagged.Length; index++)
+            {
+                Console.Write($"enter the size of new array#{index + 1}: ");
+                int size = int.Parse(Console.ReadLine());
+                int[] newArray = new int[size];
+                jagged[index] = newArray;
+            }
+
+            for (int index = 0; index < jagged.Length; index++)
+            {
+                for (int i = 0; i < jagged[index].Length; i++)
+                {
+                    Console.Write($"\nenter value in jagged[{index}][{i}]: ");
+                    jagged[index][i] = int.Parse(Console.ReadLine());
+                }
+                Console.WriteLine("\n");
+            }
+
+            for (int index = 0; index < jagged.Length; index++)
+            {
+                for (int i = 0; i < jagged[index].Length; i++)
+                {
+                    Console.WriteLine($"value at jagged[{index}][{i}]: {jagged[index][i]}");
+                }
+                Console.WriteLine("\n");
+            }
+        }
+
         static void Main(string[] args)
         {
             //CreateSingleDimensionalArray();
             //CreateTwoDimensionalArray();
+            //CreateJaggedArray();
         }
     }
 }
