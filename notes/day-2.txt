@@ -1,0 +1,66 @@
+1. .NET Framewok (legacy)
+2. .Net Core Framework (.NET)
+3. dotnet tool (part of the .NET SDK)
+4. executable and library
+5. basic features of C#
+
+C# Language History: USP of .net framework (2002)
+
+year	language version	framework version
+------------------------------------------------
+2002 		1.0					1.0
+2003		1.1					1.1
+2005		2.0					2.0	
+2007		3.0					3.0 	
+2008		3.0					3.5
+2010		4.0					4.0
+2012		5.0					4.5.1
+2013		5.0					4.5.2
+2015		6.0					4.6
+2017		7.0					4.7
+2019		8.0					4.8	
+
+C# for .NET Framework (legacy)				C# for .Net Core Framework (.NET)
+--------------------------------------------------------------------------------
+C# 7.0, 8.0											C# 7.0 (2.0 version of .Net Core)& 8.0 (3.0 version 														of .Net Core)	
+														C# 9.0 (2020/2021) - 5.0 version of .NET
+														C# 10.0 (2022)	- 6.0 version of .NET
+local variable to the function
+object data
+
+C# language:
+										data types
+			value types										reference types
+------------------------------------------------------------------------------
+built-in				user-defined				bulit-in				user-defined
+-------------------------------------------------------------------------------
+byte					enum							string				class
+sbyte					struct						Array					interface
+int													Object				delegate
+short																			event		
+ushort
+int
+uint
+long
+ulong
+
+decimal
+float
+double
+
+char
+bool
+
+DateTime
+TimeSpan
+					Nullable Types
+
+operators:
+control flow statements:
+
+
+
+
+
+
+

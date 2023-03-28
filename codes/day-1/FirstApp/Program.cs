@@ -8,9 +8,21 @@ namespace FirstApp
 {
     class Program
     {
+        //unsafe static void UsePointer()
+        //{
+        //    int* p = (int*)20;
+        //    Console.WriteLine();
+        //}
         static void Main()
         {
-            Messenger messenger = new Messenger();
+            //x => value type variable
+            //int => value type
+            int x = 10;
+            Console.WriteLine(x);
+
+            //messenger => refernce type variable
+            //Messenger => reference type (user-defined type)
+            Messenger messenger = new Messenger(1);
             string message = messenger.GetMessage("joydip");
             Console.WriteLine(message);
 
@@ -22,6 +34,9 @@ namespace FirstApp
 
             Class1 cls = new Class1();
             Console.WriteLine(cls.SayHello());
+
+            Console.WriteLine("oress any ket to close the application.");
+            Console.ReadLine();
         }
     }
 }

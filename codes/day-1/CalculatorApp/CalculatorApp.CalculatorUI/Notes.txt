@@ -1,0 +1,31 @@
+﻿ string myDob = "asdfsadsaf";
+            DateTime dt;
+            DateTime.TryParse(myDob, out dt);
+            //int x = 10;           
+            //Nullable type
+            //Nullable<int> x = null;
+            //x = 10;
+            //if (x.HasValue)
+            //{
+            //    Console.WriteLine(x);
+            //}else
+            //    Console.WriteLine("no value present");
+
+            ////Nullable<float> c = null;
+            //float? c = null;
+
+            
+        static bool TryToParse(string data, out DateTime dt)
+        {
+            bool status = false;
+            try
+            {
+                dt = DateTime.Parse(data);
+                status = true;
+            }
+            catch (Exception ex)
+            {
+                dt = DateTime.MinValue;
+            }
+            return status;
+        }

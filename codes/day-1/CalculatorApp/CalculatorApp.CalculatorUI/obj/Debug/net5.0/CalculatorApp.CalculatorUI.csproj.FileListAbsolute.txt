@@ -1,0 +1,5 @@
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\CalculatorApp\CalculatorApp.CalculatorUI\obj\Debug\net5.0\CalculatorApp.CalculatorUI.csproj.AssemblyReference.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\CalculatorApp\CalculatorApp.CalculatorUI\obj\Debug\net5.0\CalculatorApp.CalculatorUI.GeneratedMSBuildEditorConfig.editorconfig
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\CalculatorApp\CalculatorApp.CalculatorUI\obj\Debug\net5.0\CalculatorApp.CalculatorUI.AssemblyInfoInputs.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\CalculatorApp\CalculatorApp.CalculatorUI\obj\Debug\net5.0\CalculatorApp.CalculatorUI.AssemblyInfo.cs
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-1\CalculatorApp\CalculatorApp.CalculatorUI\obj\Debug\net5.0\CalculatorApp.CalculatorUI.csproj.CoreCompileInputs.cache

@@ -7,7 +7,7 @@
             public string GetData()
             {
                 return "data";
-            }            
+            }
         }
         public class OracleDataAccess
         {
@@ -31,6 +31,11 @@
 
     public class Messenger
     {
+        int id;
+        public Messenger(int _id)
+        {
+            id = _id;
+        }
         public string GetMessage(string name)
         {
             return "Hello...." + name;
