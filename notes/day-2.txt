@@ -58,6 +58,11 @@ TimeSpan
 operators:
 control flow statements:
 
+Debugging in VS:
+windows: Locals, Auto, Watch, QuickWatch, Command
+Locals: will show all the local variables in the current function
+Autos: will show all the local variables of the current line that is being executed of the current function
+watch: window, where you can evaluate an expression or type a variable name to see its current value
 
 
 
