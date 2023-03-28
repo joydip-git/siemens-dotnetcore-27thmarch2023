@@ -1,0 +1,6 @@
+1. create an applicaion, where you ask user to enter a sentence, like the following
+sentence: I love DotNet. I am curently working on DotNet for past 3 years in Siemens, bangalore.
+2. create a static method in you application, where you can pass the sentence, and the method splits the sentence into words, by using special characters present in the sentence (such as: dot(.) or comma(,) etc.) and finally returns the unique collecion of the words.
+
+output:
+I, love, DotNet, am, currently, working, on, for, past, 3, years, in, Siemens, bangalore

@@ -64,6 +64,14 @@ Locals: will show all the local variables in the current function
 Autos: will show all the local variables of the current line that is being executed of the current function
 watch: window, where you can evaluate an expression or type a variable name to see its current value
 
+Paramter Array:
+
+a. this array should be declared with "params" keyword. 
+b. this array can appear ONLY as part of the method's argument list
+c. main objective to declare the array with params keyword is, when you call the function, apart from any fixed argument(s), remaining all parameters will be diecly passed to that aray. Used in a situation when you are not sure how many parameters to pass every time you call that method
+d. you can't declare morre that one array with params keyword in a ffunction agument list
+e. hat parameter should be the last one in he method's agument list. all fixed arguments must be declared before the parameter array
+
 
 
 

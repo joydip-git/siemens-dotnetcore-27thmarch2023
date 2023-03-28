@@ -101,12 +101,24 @@ namespace ArrayDemo
                 Console.WriteLine("\n");
             }
         }
-
+        static int CalculateAverage(string name, params int[] marks)
+        {
+            int sum = 0;
+            foreach (int item in marks)
+            {
+                sum += item;
+            }
+            return sum / marks.Length;
+        }
         static void Main(string[] args)
         {
             //CreateSingleDimensionalArray();
             //CreateTwoDimensionalArray();
             //CreateJaggedArray();
+            //params int[] numbers = new int[] { 10, 20, 30 };
+            Console.WriteLine(CalculateAverage("anil", 20, 30));
+            Console.WriteLine(CalculateAverage("sunil", 20, 30, 40));
+            Console.WriteLine(CalculateAverage("ankush", 20, 30, 40, 50, 60));
         }
     }
 }
