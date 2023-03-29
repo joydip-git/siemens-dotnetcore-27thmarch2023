@@ -41,4 +41,27 @@ When you create object of child class, both base and child class's constructor g
 By default, the default ctor of base class will be invoked
 First, the ctor of the base class and then ctor of the child class will be executed
 
+Polymorphism:
+Compile time: 
+	1. method overloading: all overloaded methods will be in a single class
+
+	a. number of arguments
+	b. data type of arguments
+	c. position of arguments
+
+	2. operator overloading: 
+
+Runtime or dynamic:
+	method overriding => base mehod wih "virtual" and child method with "override"
+	note: not mandatory to override base class "virtual" method in child class
+
+Abstract class:
+	at least one method or property is Abstract.
+	method overriding => base mehod wih "abstract" and child method with "override"
+	note: It is mandatory to override base class "abstract" method in child class
+
+Base:
+public abstract string Name { get; set;}
+Child:
+public override string Name { get=> name; set=> name = value;}
 
