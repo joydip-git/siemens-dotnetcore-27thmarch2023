@@ -9,6 +9,10 @@ namespace CalculatorApp.CalculatorUI.Utility
 {
     static class UiUtility
     {
+        //const string NAME = "";
+        //static string name;
+        //static UiUtility() { }
+        //public static string Name { set=>, get=>}
         public static void PrintMenu()
         {
             Console.WriteLine("1. Add\n2. Subtract\n3. Multiply\n4. Divide");

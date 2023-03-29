@@ -23,3 +23,17 @@ optional argument with default value (4.0 -2010):
 this argument should be the last one in the argument list
 
 
+static ctor:
+1. you can have ONLY ONE static ctor in a class
+2. static ctor should not be declared with any access specifier
+3. you do not invoke the static ctor from outside (i.e., it can't be overloaded)
+4. static ctor is used to assign value(s) to ONLY Static member(s)
+5. this ctor is invoked by runtime automatically before any other constructor and ONLY one time, when you create the first instance of the class or you invoke some public static property/method/data member from the class
+
+
+static: can be assigned through field initialization, static constructor, property, method as well as instance constructor, property, method
+readonly: can be assigned through field initialization, init-only property and instance constructor
+static readonly: can be assigned through field initialization, init-only property and static constructor
+const: can be assigned through field initialization ONLY
+
+

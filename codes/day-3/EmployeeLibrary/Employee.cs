@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data;
 
 namespace EmployeeLibrary
 {
@@ -8,12 +9,28 @@ namespace EmployeeLibrary
         string projectName;
         DateTime? dob;
         int age;
+        readonly int id;
+        static decimal joiningbonus;// = 1000;
+        static readonly string department;// = "Syngo";
+        public const string COMPANY_NAME = "Siemens";
+
+        //public decimal Salary { get; set; } = 10000;
+
+        static Employee()
+        {
+            Console.WriteLine("static ctor executed");
+            joiningbonus = 1000;
+            department = "DX";
+        }
 
         public Employee() { }
 
         //optional argument with default value (4.0 -2010)
-        public Employee(string name, DateTime? dob = null, string projectName = null)
+        public Employee(string name, int id, decimal bonus = 1000, DateTime? dob = null, string projectName = null)
         {
+            Console.WriteLine("instance ctor executed");
+            joiningbonus = bonus;
+            this.id = id;
             this.name = name;
             this.dob = dob;
             this.projectName = projectName;
@@ -31,6 +48,7 @@ namespace EmployeeLibrary
         //    return this.name;
         //}
 
+        public int Id => id;
         //property Function (read-only - getter, write-only - setter)
         public string ProjetName
         {
@@ -84,7 +102,7 @@ namespace EmployeeLibrary
             {
                 if (propName != "name" && propName != "project" && propName != "dob")
                     throw new ArgumentException("Incorrect index");
-                    
+
 
                 switch (propName)
                 {
@@ -106,6 +124,10 @@ namespace EmployeeLibrary
             }
             get
             {
+                if (propName == "id")
+                {
+                    return this.id;
+                }
                 if (propName == "name")
                 {
                     return this.name;
@@ -151,13 +173,17 @@ namespace EmployeeLibrary
             {
                 if (propIndex == 0)
                 {
-                    return this.name;
+                    return this.id;
                 }
                 if (propIndex == 1)
                 {
-                    return this.projectName;
+                    return this.name;
                 }
                 if (propIndex == 2)
+                {
+                    return this.projectName;
+                }
+                if (propIndex == 3)
                 {
                     return this.dob;
                 }
