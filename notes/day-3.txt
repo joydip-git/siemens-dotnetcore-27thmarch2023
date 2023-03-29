@@ -36,4 +36,9 @@ readonly: can be assigned through field initialization, init-only property and i
 static readonly: can be assigned through field initialization, init-only property and static constructor
 const: can be assigned through field initialization ONLY
 
+Inheritance:
+When you create object of child class, both base and child class's constructor gets called. 
+By default, the default ctor of base class will be invoked
+First, the ctor of the base class and then ctor of the child class will be executed
+
 

@@ -3,10 +3,49 @@ using EmployeeLibrary;
 
 namespace OOP_CSharp
 {
+    class A
+    {
+        //protected string name;
+        private string name;
+
+        public A()
+        {
+            Console.WriteLine("A default ctor");
+        }
+
+        public A(string name)
+        {
+            Console.WriteLine("A parameterized ctor");
+            this.name = name;
+        }
+
+        public string Name { get => name; set => name = value; }
+    }
+    class B : A
+    {
+        int id;
+
+        public B()
+        {
+            Console.WriteLine("B default ctor");
+        }
+
+        public B(string name, int id) : base(name)
+        {
+            Console.WriteLine("B parameterized ctor");
+            //this.name = name;
+            this.id = id;
+            //base.Name
+        }
+
+        public int Id { get => id; set => id = value; }
+    }
+
     internal class Program
     {
         static void Main()
         {
+            B b = new B("anil", 1);
             //Employee employee = new Employee("joydip", 1);
             //Employee employee2 = new Employee("anil", 2);
             //employee.SetProjectName("CITA");
