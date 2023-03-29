@@ -1,0 +1,16 @@
+library: Payroll Library
+Developer: name, id, basicpayment, dapayment, hrapayment, incentivepayment, totalSalary
+CalculateSalary: 
+		args: NA
+		returns: void
+Hr: name, id, basicpayment, dapayment, hrapayment, gratuitypayment, totalSalary
+CalculateSalary: 
+		args: NA
+		returns: void
+
+Do not use CWL in CalculateSalary method
+
+Payroll App: console
+create some instances of both type of classes and save those objects in an array
+accept the values from console including how many object to create 
+calculate salary of different employees off an organization by iterating through an array
