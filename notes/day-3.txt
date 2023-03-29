@@ -1,0 +1,25 @@
+ILDASM: Intermediate Language Disassembler
+
+
+1. OOP in C#:
+class, access specifiers, 
+members:
+constructor, field, method, property
+
+class access specifiers:
+internal (by default) and public
+
+member acess specifiers:
+private (by default)
+
+constructor:
+special method to assign default or user data to the data members
+its name has to be same as that of the class name
+should not mention any return type with this method, as the constructor never returns anything
+If you do not write any constructor explicitly inside the class, then the default constructor is supplied by default (in the IL code)
+But, if you write any constructor explicitly inside the class, then the default constructor is NOT supplied by default (in the IL code)
+
+optional argument with default value (4.0 -2010):
+this argument should be the last one in the argument list
+
+
