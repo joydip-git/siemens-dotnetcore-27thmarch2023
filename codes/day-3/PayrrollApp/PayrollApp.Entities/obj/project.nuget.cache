@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qAVvdXMsWhdyqbbgnJyMGh40hSse1PtQedZa1ZqFT6j2GhZdQxITGkCoanum9Bm7SUL2jFFPgzHpctdXxxe8vA==",
+  "success": true,
+  "projectFilePath": "E:\\training\\siemens-dotnetcore-27thmarch2023\\codes\\day-3\\PayrrollApp\\PayrollApp.Entities\\PayrollApp.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joydip\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\joydip\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

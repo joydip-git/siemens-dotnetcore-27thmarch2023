@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "PayrollApp.UserInterface/1.0.0": {
+        "dependencies": {
+          "PayrollApp.Entities": "1.0.0"
+        },
+        "runtime": {
+          "PayrollApp.UserInterface.dll": {}
+        }
+      },
+      "PayrollApp.Entities/1.0.0": {
+        "runtime": {
+          "PayrollApp.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PayrollApp.UserInterface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PayrollApp.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-3\PayrrollApp\PayrollApp.Entities\bin\Debug\net5.0\PayrollApp.Entities.deps.json
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-3\PayrrollApp\PayrollApp.Entities\bin\Debug\net5.0\PayrollApp.Entities.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-3\PayrrollApp\PayrollApp.Entities\bin\Debug\net5.0\PayrollApp.Entities.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-3\PayrrollApp\PayrollApp.Entities\obj\Debug\net5.0\PayrollApp.Entities.csproj.AssemblyReference.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-3\PayrrollApp\PayrollApp.Entities\obj\Debug\net5.0\PayrollApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-3\PayrrollApp\PayrollApp.Entities\obj\Debug\net5.0\PayrollApp.Entities.AssemblyInfoInputs.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-3\PayrrollApp\PayrollApp.Entities\obj\Debug\net5.0\PayrollApp.Entities.AssemblyInfo.cs
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-3\PayrrollApp\PayrollApp.Entities\obj\Debug\net5.0\PayrollApp.Entities.csproj.CoreCompileInputs.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-3\PayrrollApp\PayrollApp.Entities\obj\Debug\net5.0\PayrollApp.Entities.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-3\PayrrollApp\PayrollApp.Entities\obj\Debug\net5.0\refint\PayrollApp.Entities.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-3\PayrrollApp\PayrollApp.Entities\obj\Debug\net5.0\PayrollApp.Entities.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-3\PayrrollApp\PayrollApp.Entities\obj\Debug\net5.0\ref\PayrollApp.Entities.dll
