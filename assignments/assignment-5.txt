@@ -1,0 +1,24 @@
+Outstanding Person:
+
+Think of two different types of Person - Professor and Student
+
+class library: (No I/O lines [cw/cr] here)
+-----------------------------------------------------------
+Professor: (if he/she has published more than 5 books)
+	data members: name, number of books published
+	methods: 
+		a. bool IsOutstanding(){}: returns true if the professor is outstanding or false otherwise
+		b. string Print(){ returns name and number of books published as string}
+	
+	
+Student: (if he/she has score more than 85)
+	data members: name, marks obtained
+	methods: 
+		a. bool IsOutstanding(){}: returns true if the student is outstanding or false otherwise
+		b. string Show(){ returns name and marks as string}
+
+Console App: (UI part)
+-------------------------------------------------------------------
+create min 4 instances (2 each) of Professor and Student
+Store the instances in an array
+iterate through the array and find out and display details of which people are outstanding
