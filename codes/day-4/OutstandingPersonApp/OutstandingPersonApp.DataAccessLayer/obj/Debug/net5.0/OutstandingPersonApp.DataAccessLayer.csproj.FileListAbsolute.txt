@@ -1,0 +1,17 @@
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.DataAccessLayer\bin\Debug\net5.0\OutstandingPersonApp.DataAccessLayer.deps.json
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.DataAccessLayer\bin\Debug\net5.0\OutstandingPersonApp.DataAccessLayer.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.DataAccessLayer\bin\Debug\net5.0\OutstandingPersonApp.DataAccessLayer.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.DataAccessLayer\bin\Debug\net5.0\OutstandingPersonApp.Entities.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.DataAccessLayer\bin\Debug\net5.0\OutstandingPersonApp.Repository.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.DataAccessLayer\bin\Debug\net5.0\OutstandingPersonApp.Entities.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.DataAccessLayer\bin\Debug\net5.0\OutstandingPersonApp.Repository.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.DataAccessLayer\obj\Debug\net5.0\OutstandingPersonApp.DataAccessLayer.csproj.AssemblyReference.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.DataAccessLayer\obj\Debug\net5.0\OutstandingPersonApp.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.DataAccessLayer\obj\Debug\net5.0\OutstandingPersonApp.DataAccessLayer.AssemblyInfoInputs.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.DataAccessLayer\obj\Debug\net5.0\OutstandingPersonApp.DataAccessLayer.AssemblyInfo.cs
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.DataAccessLayer\obj\Debug\net5.0\OutstandingPersonApp.DataAccessLayer.csproj.CoreCompileInputs.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.DataAccessLayer\obj\Debug\net5.0\OutstandingPersonApp.DataAccessLayer.csproj.CopyComplete
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.DataAccessLayer\obj\Debug\net5.0\OutstandingPersonApp.DataAccessLayer.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.DataAccessLayer\obj\Debug\net5.0\refint\OutstandingPersonApp.DataAccessLayer.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.DataAccessLayer\obj\Debug\net5.0\OutstandingPersonApp.DataAccessLayer.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.DataAccessLayer\obj\Debug\net5.0\ref\OutstandingPersonApp.DataAccessLayer.dll

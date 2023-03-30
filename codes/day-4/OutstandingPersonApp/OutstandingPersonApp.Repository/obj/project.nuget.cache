@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xfBoTLK81H46ppZzqFq+gP13kIA+WWAvG76DfgsziSQ6T28lm53n5pBvcOdRGebDu2oMMyyJmWqRNVrxKXOSAg==",
+  "success": true,
+  "projectFilePath": "E:\\training\\siemens-dotnetcore-27thmarch2023\\codes\\day-4\\OutstandingPersonApp\\OutstandingPersonApp.Repository\\OutstandingPersonApp.Repository.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joydip\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\joydip\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "OutstandingPersonApp.DataAccessLayer/1.0.0": {
+        "dependencies": {
+          "OutstandingPersonApp.Entities": "1.0.0",
+          "OutstandingPersonApp.Repository": "1.0.0"
+        },
+        "runtime": {
+          "OutstandingPersonApp.DataAccessLayer.dll": {}
+        }
+      },
+      "OutstandingPersonApp.Entities/1.0.0": {
+        "runtime": {
+          "OutstandingPersonApp.Entities.dll": {}
+        }
+      },
+      "OutstandingPersonApp.Repository/1.0.0": {
+        "dependencies": {
+          "OutstandingPersonApp.Entities": "1.0.0"
+        },
+        "runtime": {
+          "OutstandingPersonApp.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OutstandingPersonApp.DataAccessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OutstandingPersonApp.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OutstandingPersonApp.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

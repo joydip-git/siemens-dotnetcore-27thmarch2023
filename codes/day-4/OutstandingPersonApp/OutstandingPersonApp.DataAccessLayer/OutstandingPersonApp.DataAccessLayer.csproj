@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OutstandingPersonApp.Entities\OutstandingPersonApp.Entities.csproj" />
+    <ProjectReference Include="..\OutstandingPersonApp.Repository\OutstandingPersonApp.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

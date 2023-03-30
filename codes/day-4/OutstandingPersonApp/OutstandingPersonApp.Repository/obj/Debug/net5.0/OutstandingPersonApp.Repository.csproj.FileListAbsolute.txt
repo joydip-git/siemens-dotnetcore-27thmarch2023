@@ -1,0 +1,15 @@
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Repository\bin\Debug\net5.0\OutstandingPersonApp.Repository.deps.json
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Repository\bin\Debug\net5.0\OutstandingPersonApp.Repository.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Repository\bin\Debug\net5.0\OutstandingPersonApp.Repository.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Repository\bin\Debug\net5.0\OutstandingPersonApp.Entities.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Repository\bin\Debug\net5.0\OutstandingPersonApp.Entities.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Repository\obj\Debug\net5.0\OutstandingPersonApp.Repository.csproj.AssemblyReference.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Repository\obj\Debug\net5.0\OutstandingPersonApp.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Repository\obj\Debug\net5.0\OutstandingPersonApp.Repository.AssemblyInfoInputs.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Repository\obj\Debug\net5.0\OutstandingPersonApp.Repository.AssemblyInfo.cs
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Repository\obj\Debug\net5.0\OutstandingPersonApp.Repository.csproj.CoreCompileInputs.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Repository\obj\Debug\net5.0\OutstandingPersonApp.Repository.csproj.CopyComplete
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Repository\obj\Debug\net5.0\OutstandingPersonApp.Repository.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Repository\obj\Debug\net5.0\refint\OutstandingPersonApp.Repository.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Repository\obj\Debug\net5.0\OutstandingPersonApp.Repository.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Repository\obj\Debug\net5.0\ref\OutstandingPersonApp.Repository.dll

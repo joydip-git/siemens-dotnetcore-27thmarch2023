@@ -1,0 +1,12 @@
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Entities\bin\Debug\net5.0\OutstandingPersonApp.Entities.deps.json
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Entities\bin\Debug\net5.0\OutstandingPersonApp.Entities.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Entities\bin\Debug\net5.0\OutstandingPersonApp.Entities.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Entities\obj\Debug\net5.0\OutstandingPersonApp.Entities.csproj.AssemblyReference.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Entities\obj\Debug\net5.0\OutstandingPersonApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Entities\obj\Debug\net5.0\OutstandingPersonApp.Entities.AssemblyInfoInputs.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Entities\obj\Debug\net5.0\OutstandingPersonApp.Entities.AssemblyInfo.cs
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Entities\obj\Debug\net5.0\OutstandingPersonApp.Entities.csproj.CoreCompileInputs.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Entities\obj\Debug\net5.0\OutstandingPersonApp.Entities.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Entities\obj\Debug\net5.0\refint\OutstandingPersonApp.Entities.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Entities\obj\Debug\net5.0\OutstandingPersonApp.Entities.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\OutstandingPersonApp\OutstandingPersonApp.Entities\obj\Debug\net5.0\ref\OutstandingPersonApp.Entities.dll
