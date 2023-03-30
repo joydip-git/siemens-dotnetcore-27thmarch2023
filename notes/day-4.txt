@@ -1,0 +1,126 @@
+1. Abstract class:
+
+abstract class A
+{
+		int id;
+		public A(){}
+		public A(int _id){id = _id;}
+		
+		public int Id {set => id=value; get => id;}
+		public abstract string Name{set; get;}
+		public abstract void GetData();
+		
+		public void Print()
+		{
+			cwl(id);
+		}
+		public virtual string Display()
+		{
+			return "hello";
+		}
+}
+class B:A
+{
+	string name;
+	string data;
+	
+	public override string Name{set => name=value; get => name;}
+	public override void GetData()
+	{
+		data = "data";
+	}
+	public override string Display()
+	{
+		return "hello";
+	}
+}
+
+Note:
+	A. a class with at least one abstract method or property is an abstract class
+	B. in C#, you must declare the abstract method or property with "abstract" keyword
+	C. the class also, must be declared with "abstract" keyword
+	D. you can't create an instance of abstract class
+	E. Abstract class can have constructors, data members and other regular (virtual or non-virtual) methods/properties too
+	F. Every child class, which inherits from the abstract base class, must implement the abstract methods/properties of the abstract base class. Otherwise, the child class will become an abstract class and has tp be declared with "abstract" keyword too
+	G. while implementing abstract class's abstract members in child class, you need to use override keyword.
+	H. Idea behind abstract class is: In your s/w architecture, if you have few child classes of similar nature, and they must have similar functionality, with different implementation in child class, the best idea is to create an abstract class, with the required method signatures without code (abstarct). Let the child classes inherit from that abstract class and thus those child classes are forced to implement the abstract methods/properties.
+
+up-casting:
+A obj = null;
+obj = new B(); //constructors from both base (default/parameterized) and child (the one you called) will be invoked
+
+2. Interface:
+   is a pure abstract class
+	A. in interface all methods or properties are abstract by default. That means, you can declare the method or properties in an interface, but can't define them. Also, you don't need to use "abstract" access modifier
+	B. By deault, all interface members are public. Hence, you don't need to use "public" access specifier. Also, you can't write any other access specifiers with interface members.
+	C. In general, interface can't have 
+		i. data members
+		ii. explicit constructors
+		iii. static members
+		noe: interface helps you declare abstract instance methods or properties
+	D. you can't create an instance of interface
+	E. Every child class, which implements the interface, must implement the abstract methods/properties of the interface. Otherwise, the child class will become an abstract class and has to be declared with "abstract" keyword too. As well as, you have to write the abstract methods/properties of the interface in the child class with "abstract" access modifier and "public" access specifier, since in class no member is by default public or abstract, unlike interface members
+	F. while implementing interface members in child class, you DON'T need to use override keyword, unlike abstract class.
+
+
+interface ISample
+{
+	string Name{set; get;}
+	void GetData();
+}
+
+class Sample:ISample
+{
+	string name;
+	string data;
+
+	public string Name {get => name; set => name=value;}
+	public void GetData(){ data = "data";}
+
+	public string SayHello(){ return "hello";}
+}
+
+abstract class AnotherSample : ISample
+{
+	string name;
+
+	public string Name {get => name; set => name=value;}
+	public abstract void GetData();
+
+	public sring SayHello(){ return "hello";}
+}
+
+Sample sampleObj = new Sample();
+sampleObj.GetData();
+sampleObj.SayHello(); 
+
+ISample sampleObj = new Sample();
+sampleObj.GetData();
+sampleObj.SayHello(); <-- not possible, since SayHello() is class's own method
+
+										interface IDevice { void TypeInKeyboard();}
+TypeWriter				Laptop					Desktop					Mobile
+TypeInKeyboard()	TypeInKeyboard()	TypeInKeyboard()	TypeInKeyboard()
+
+
+							abstract class Account
+							{
+								accountHoldeName
+								accountNumber	
+								balance	
+								Credit()
+								Debit()
+							}
+
+SavingsAccount					CurrentAccount					CreditCarAccount
+-----------------------------------------------------------------------
+accountHoldeName				accountHoldeName				accountHoldeName
+accountNumber						accountNumber						accountNumber
+balance								balance								balance
+Credit()							Credit()							Credit()
+Debit()								Debit()								Debit()
+
+
+
+
+	

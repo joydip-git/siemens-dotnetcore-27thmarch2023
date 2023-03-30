@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceDemo.Entities", "InterfaceDemo.Entities\InterfaceDemo.Entities.csproj", "{66621DB4-4EEB-4D97-8BBA-9790D81ABC97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InerfaceDemo.UserInterface", "InerfaceDemo.UserInterface\InerfaceDemo.UserInterface.csproj", "{51B36CB6-A9AB-4EEF-9437-030C67CF43EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66621DB4-4EEB-4D97-8BBA-9790D81ABC97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66621DB4-4EEB-4D97-8BBA-9790D81ABC97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66621DB4-4EEB-4D97-8BBA-9790D81ABC97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66621DB4-4EEB-4D97-8BBA-9790D81ABC97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51B36CB6-A9AB-4EEF-9437-030C67CF43EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B36CB6-A9AB-4EEF-9437-030C67CF43EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51B36CB6-A9AB-4EEF-9437-030C67CF43EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51B36CB6-A9AB-4EEF-9437-030C67CF43EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84E89B39-0954-4CE6-AD6E-6EEB2B679F32}
+	EndGlobalSection
+EndGlobal
