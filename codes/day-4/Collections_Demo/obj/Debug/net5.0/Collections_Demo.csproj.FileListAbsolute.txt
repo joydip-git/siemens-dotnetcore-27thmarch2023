@@ -1,0 +1,16 @@
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\Collections_Demo\bin\Debug\net5.0\Collections_Demo.exe
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\Collections_Demo\bin\Debug\net5.0\Collections_Demo.deps.json
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\Collections_Demo\bin\Debug\net5.0\Collections_Demo.runtimeconfig.json
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\Collections_Demo\bin\Debug\net5.0\Collections_Demo.runtimeconfig.dev.json
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\Collections_Demo\bin\Debug\net5.0\Collections_Demo.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\Collections_Demo\bin\Debug\net5.0\Collections_Demo.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\Collections_Demo\obj\Debug\net5.0\Collections_Demo.csproj.AssemblyReference.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\Collections_Demo\obj\Debug\net5.0\Collections_Demo.GeneratedMSBuildEditorConfig.editorconfig
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\Collections_Demo\obj\Debug\net5.0\Collections_Demo.AssemblyInfoInputs.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\Collections_Demo\obj\Debug\net5.0\Collections_Demo.AssemblyInfo.cs
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\Collections_Demo\obj\Debug\net5.0\Collections_Demo.csproj.CoreCompileInputs.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\Collections_Demo\obj\Debug\net5.0\Collections_Demo.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\Collections_Demo\obj\Debug\net5.0\refint\Collections_Demo.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\Collections_Demo\obj\Debug\net5.0\Collections_Demo.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\Collections_Demo\obj\Debug\net5.0\Collections_Demo.genruntimeconfig.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\Collections_Demo\obj\Debug\net5.0\ref\Collections_Demo.dll

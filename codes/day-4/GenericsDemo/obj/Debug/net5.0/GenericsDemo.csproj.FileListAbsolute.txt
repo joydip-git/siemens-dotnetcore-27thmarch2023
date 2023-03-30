@@ -1,0 +1,16 @@
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\GenericsDemo\bin\Debug\net5.0\GenericsDemo.exe
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\GenericsDemo\bin\Debug\net5.0\GenericsDemo.deps.json
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\GenericsDemo\bin\Debug\net5.0\GenericsDemo.runtimeconfig.json
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\GenericsDemo\bin\Debug\net5.0\GenericsDemo.runtimeconfig.dev.json
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\GenericsDemo\bin\Debug\net5.0\GenericsDemo.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\GenericsDemo\bin\Debug\net5.0\GenericsDemo.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\GenericsDemo\obj\Debug\net5.0\GenericsDemo.csproj.AssemblyReference.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\GenericsDemo\obj\Debug\net5.0\GenericsDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\GenericsDemo\obj\Debug\net5.0\GenericsDemo.AssemblyInfoInputs.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\GenericsDemo\obj\Debug\net5.0\GenericsDemo.AssemblyInfo.cs
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\GenericsDemo\obj\Debug\net5.0\GenericsDemo.csproj.CoreCompileInputs.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\GenericsDemo\obj\Debug\net5.0\GenericsDemo.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\GenericsDemo\obj\Debug\net5.0\refint\GenericsDemo.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\GenericsDemo\obj\Debug\net5.0\GenericsDemo.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\GenericsDemo\obj\Debug\net5.0\GenericsDemo.genruntimeconfig.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-4\GenericsDemo\obj\Debug\net5.0\ref\GenericsDemo.dll

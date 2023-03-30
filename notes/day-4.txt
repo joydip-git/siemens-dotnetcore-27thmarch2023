@@ -121,6 +121,25 @@ Credit()							Credit()							Credit()
 Debit()								Debit()								Debit()
 
 
+HashSet allows you to add new item and it calculates a hash code for that item
+a. in case of value types hash code is calculated based on the value itself and 
+b. in case of user-defined reference types, hash code by default is calculated on the basis of the reference of that object
+
+1 => 1
+2 => 2
+1 => 1
+
+2^4 => 16
+
+2^128
+
+
+a. List<T>
+b. HashSet<T>
+c. Dictionary<TKey,TValue>
+d. SortedList<TKey,TValue>
+e. IComparable<T>
+f. IComparer<T>
 
 
 	
