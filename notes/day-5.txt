@@ -29,3 +29,23 @@
 	ii. you do not want to write the sorting logic inside the user-defined type using CompareTo mehod, 
 	you must implement either of the above two interfaces in an external type (not user-defined type) and then create an instance of that type and supply the same to Sort() method as parameter. In that case, Sort() method will call the Compare() method present in that external type.
 
+//OOAD: SOLID
+//OCP (Open Close Principle)
+ 
+List<T> list = new List<T>();
+class T:Icomparable<T>{ public int CompareTo(T other){ //code }}
+
+TComparison tc = new TComparsion(1);
+list.Sort(tc);
+
+class TComparison : IComparer<T>
+{
+	int _choice;
+
+	public TComparison(int choice) => _choice = choice;
+
+	public int Compare(T x, T y){ //code }
+}
+
+
+
