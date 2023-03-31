@@ -1,0 +1,19 @@
+1. create a MarksCard class
+    -- name of the student
+    -- List containing marks of 3 assessments
+    -- location
+    -- subject
+
+2. create a collection of MarksCard class (add some objects)
+
+3. filter the MarksCard collection by 
+     -- the students who has passed
+     -- the students who have failed
+     -- the location of students
+     -- by the subject
+
+4. sort the items in the collection based on
+	-- marks
+	-- name
+	-- subject
+	--location

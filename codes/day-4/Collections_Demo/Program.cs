@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace Collections_Demo
@@ -65,8 +66,8 @@ namespace Collections_Demo
             foreach (int item in list)
             {
                 Console.WriteLine(item);
-            }            
-            
+            }
+
             Person first = new Person { Id = 3, Name = "anil" };
             Person second = new Person { Id = 1, Name = "joydip" };
             Person third = new Person { Id = 2, Name = "sunil" };
@@ -105,7 +106,7 @@ namespace Collections_Demo
                 Console.WriteLine(p);
             }
         }
-        
+
         static void EqualityDemo()
         {
             //Object initializer (3.0 -2007)
@@ -167,9 +168,97 @@ namespace Collections_Demo
             }
         }
 
+        static void DictionaryDemo()
+        {
+            //KeyValuePair<int, string> kv = new KeyValuePair<int, string>(1,"siemens");
+
+            Dictionary<int, string> dictionary = new Dictionary<int, string>();
+            //dictionary.Add(kv);
+
+            dictionary.Add(1, "siemens");
+            dictionary.Add(0, "healthineers");
+            dictionary.Add(2, "bangalore");
+
+            //exception will be thrown if the key already exists
+            //dictionary.Add(2, "ECity");
+
+            //value will be updated if the key already exists (will not throw any exception)
+            dictionary[2] = "ECity";
+
+            //value will be updated if the key already exists (will not throw any exception) and key+value will be added if the key does not exist
+            dictionary[100] = "Bangalore";
+
+            dictionary.Remove(100);
+
+            if (dictionary.ContainsKey(100))
+            {
+                Console.WriteLine(dictionary[100]);
+            }
+            else
+            {
+                Console.WriteLine("key not found");
+            }
+
+            if (dictionary.ContainsValue("healthineers"))
+            {
+                Console.WriteLine("value exists");
+            }
+            else
+                Console.WriteLine("value does not exist");
+
+
+            foreach (KeyValuePair<int, string> kv in dictionary)
+            {
+                Console.WriteLine($"{kv.Key}:{kv.Value}");
+            }
+        }
+        static void SortedListDemo()
+        {
+            //KeyValuePair<int, string> kv = new KeyValuePair<int, string>(1,"siemens");
+
+            SortedList<int, string> sortedList = new SortedList<int, string>();
+            //sortedList.Add(kv);
+            sortedList.Add(1, "siemens");
+            sortedList.Add(0, "healthineers");
+            sortedList.Add(2, "bangalore");
+
+            //exception will be thrown if the key already exists
+            //sortedList.Add(2, "ECity");
+
+            //value will be updated if the key already exists (will not throw any exception)
+            sortedList[2] = "ECity";
+
+            //value will be updated if the key already exists (will not throw any exception) and key+value will be added if the key does not exist
+            sortedList[100] = "Bangalore";
+
+            sortedList.Remove(100);
+
+            if (sortedList.ContainsKey(100))
+            {
+                Console.WriteLine(sortedList[100]);
+            }
+            else
+            {
+                Console.WriteLine("key not found");
+            }
+
+            if (sortedList.ContainsValue("healthineers"))
+            {
+                Console.WriteLine("value exists");
+            }
+            else
+                Console.WriteLine("value does not exist");
+
+            foreach (KeyValuePair<int, string> kv in sortedList)
+            {
+                Console.WriteLine($"{kv.Key}:{kv.Value}");
+            }
+        }
         static void Main()
         {
-
+            DictionaryDemo();
+            Console.WriteLine("\n");
+            SortedListDemo();
         }
     }
 }

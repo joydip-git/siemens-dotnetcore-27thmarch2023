@@ -5,6 +5,9 @@
 	set.Add("siemens"); //"siemens".GetHashCode()
 	set.Add("siemens"); //"siemens".GetHashCode() and "siemens".Equals("siemens")
 
+	Dictionary<Tkey,TValue>
+	SortedList<Tkey,TValue>
+
 2. Collection:
 
 	A. Internalization of Sorting: (sorting logic is internal to the user-defined type)
