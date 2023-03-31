@@ -48,4 +48,17 @@ class TComparison : IComparer<T>
 }
 
 
+Delegate:
+	it stores reference(s) of function(s)
+	using delegate you can invoke the function(s)
+
+syntax:
+	delegate return-type <del-name>(arguments...);
+
+since you use delegate to store reference of some function(s), the signature of the delegate should be same as that of the function(s) or vice versa.
+i.e., using the delegate you can refer and call those function(s) which matches the signature of the delegate
+
+Note: in case of multi-cast delegate, your functions (that are trying to call using delegate) better not to have return type. Because, the delegate will call all functions one after another and will return you all the results, but you will get the result of last function call.
+
+
 

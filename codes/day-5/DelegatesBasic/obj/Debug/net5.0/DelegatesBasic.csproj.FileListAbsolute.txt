@@ -1,0 +1,16 @@
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegatesBasic\bin\Debug\net5.0\DelegatesBasic.exe
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegatesBasic\bin\Debug\net5.0\DelegatesBasic.deps.json
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegatesBasic\bin\Debug\net5.0\DelegatesBasic.runtimeconfig.json
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegatesBasic\bin\Debug\net5.0\DelegatesBasic.runtimeconfig.dev.json
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegatesBasic\bin\Debug\net5.0\DelegatesBasic.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegatesBasic\bin\Debug\net5.0\DelegatesBasic.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegatesBasic\obj\Debug\net5.0\DelegatesBasic.csproj.AssemblyReference.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegatesBasic\obj\Debug\net5.0\DelegatesBasic.GeneratedMSBuildEditorConfig.editorconfig
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegatesBasic\obj\Debug\net5.0\DelegatesBasic.AssemblyInfoInputs.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegatesBasic\obj\Debug\net5.0\DelegatesBasic.AssemblyInfo.cs
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegatesBasic\obj\Debug\net5.0\DelegatesBasic.csproj.CoreCompileInputs.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegatesBasic\obj\Debug\net5.0\DelegatesBasic.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegatesBasic\obj\Debug\net5.0\refint\DelegatesBasic.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegatesBasic\obj\Debug\net5.0\DelegatesBasic.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegatesBasic\obj\Debug\net5.0\DelegatesBasic.genruntimeconfig.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegatesBasic\obj\Debug\net5.0\ref\DelegatesBasic.dll
