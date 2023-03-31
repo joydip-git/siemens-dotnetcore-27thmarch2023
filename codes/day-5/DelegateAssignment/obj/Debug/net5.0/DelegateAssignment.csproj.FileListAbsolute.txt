@@ -1,0 +1,16 @@
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegateAssignment\bin\Debug\net5.0\DelegateAssignment.exe
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegateAssignment\bin\Debug\net5.0\DelegateAssignment.deps.json
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegateAssignment\bin\Debug\net5.0\DelegateAssignment.runtimeconfig.json
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegateAssignment\bin\Debug\net5.0\DelegateAssignment.runtimeconfig.dev.json
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegateAssignment\bin\Debug\net5.0\DelegateAssignment.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegateAssignment\bin\Debug\net5.0\DelegateAssignment.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegateAssignment\obj\Debug\net5.0\DelegateAssignment.csproj.AssemblyReference.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegateAssignment\obj\Debug\net5.0\DelegateAssignment.GeneratedMSBuildEditorConfig.editorconfig
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegateAssignment\obj\Debug\net5.0\DelegateAssignment.AssemblyInfoInputs.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegateAssignment\obj\Debug\net5.0\DelegateAssignment.AssemblyInfo.cs
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegateAssignment\obj\Debug\net5.0\DelegateAssignment.csproj.CoreCompileInputs.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegateAssignment\obj\Debug\net5.0\DelegateAssignment.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegateAssignment\obj\Debug\net5.0\refint\DelegateAssignment.dll
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegateAssignment\obj\Debug\net5.0\DelegateAssignment.pdb
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegateAssignment\obj\Debug\net5.0\DelegateAssignment.genruntimeconfig.cache
+E:\training\siemens-dotnetcore-27thmarch2023\codes\day-5\DelegateAssignment\obj\Debug\net5.0\ref\DelegateAssignment.dll
