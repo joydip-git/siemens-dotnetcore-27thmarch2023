@@ -3,43 +3,49 @@ using System.Collections.Generic;
 
 namespace Collections_Demo
 {
-    class Person //Object
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public override string ToString()
-        {
-            return $"{Name}, {Id}";
-        }
-        //Object class's original GetHasCode (Virtual) clculates hash code based on reference
-        //You need to override that GetHashCode
-        public override int GetHashCode()
-        {
-            int hash = this.Id.GetHashCode();
-            return hash;
-        }
-        public override bool Equals(object obj)
-        {
-            Person person = obj as Person;
-            if (this == person)
-            {
-                return true;
-            }
-
-            if (this.Id != person.Id)
-            {
-                return false;
-            }
-            else
-                return true;
-        }
-    }
     internal class Program
     {
-        static void Main()
+        static void SortListManually()
         {
-            /*
+            Person first = new Person { Id = 3, Name = "anil" };
+            Person second = new Person { Id = 1, Name = "joydip" };
+            Person third = new Person { Id = 2, Name = "sunil" };
+            List<Person> peopleList = new List<Person>
+            { first, second, third };
+
+            //overload the > and < operator in the Person class for the following sorting
+            for (int i = 0; i < peopleList.Count; i++)
+            {
+                for (int j = i + 1; j < peopleList.Count; j++)
+                {
+                    if (peopleList[i] > peopleList[j])
+                    {
+                        Person temp = peopleList[i];
+                        peopleList[i] = peopleList[j];
+                        peopleList[j] = temp;
+                    }
+                }
+            }
+
+            //Implement the CompareTo() method form IComparable/IComparable<T> in the Person class for the following sorting
+            for (int i = 0; i < peopleList.Count; i++)
+            {
+                for (int j = i + 1; j < peopleList.Count; j++)
+                {
+                    if (peopleList[i].CompareTo(peopleList[j]) > 0)
+                    {
+                        Person temp = peopleList[i];
+                        peopleList[i] = peopleList[j];
+                        peopleList[j] = temp;
+                    }
+                }
+            }
+        }
+        static void ListDemo()
+        {
+            //List of built-in value types
             List<int> list = new List<int>();
+            //list.Add('a'); <= character is allowed since the ASCII value is added in the list whic is Integer
             list.Add(1); //0
             list.Add(2); //1
             list.Add(3); //2
@@ -59,9 +65,76 @@ namespace Collections_Demo
             foreach (int item in list)
             {
                 Console.WriteLine(item);
+            }            
+            
+            Person first = new Person { Id = 3, Name = "anil" };
+            Person second = new Person { Id = 1, Name = "joydip" };
+            Person third = new Person { Id = 2, Name = "sunil" };
+
+            //common technique of adding elements in the List<T>
+            //List<Person> peopleList = new List<Person>();
+            //peopleList.Add(first);
+
+            //array initializer
+            //Person[] list = new Person[] { first, second, third };
+
+            //Collection initializer (3.0 -2007)
+            List<Person> peopleList = new List<Person>
+            { first, second, third };
+
+            //A. Internalization of sorting
+            //default sorting: ascending order
+            //peopleList.Sort();
+            //peopleList[0].CompareTo(peopleList[1])> 0
+            //peopleList[0].CompareTo(peopleList[2])> 0
+            //peopleList[1].CompareTo(peopleList[2])> 0
+
+            //B. Externalization of sorting
+            Console.WriteLine("Sort choice\n1. By Id \n2. By Name");
+            Console.Write("Enter Choice[1/2]: ");
+            int choice = int.Parse(Console.ReadLine());
+            PersonComparsion pc = new PersonComparsion(choice);
+            //You should pass object of such a class which implements IComparer<T> interface (i.e., implements int Compare(T x, T y))
+            peopleList.Sort(pc);
+            //pc.Compare(peopleList[0],peopleList[1])> 0
+            //pc.Compare(peopleList[0],peopleList[2])> 0
+            //pc.Compare(peopleList[1],peopleList[2])> 0
+
+            foreach (Person p in peopleList)
+            {
+                Console.WriteLine(p);
             }
-            //list.Add('a');
-            Console.WriteLine("\n");
+        }
+        
+        static void EqualityDemo()
+        {
+            //Object initializer (3.0 -2007)
+            Person first = new Person { Id = 3, Name = "anil" };
+            Person second = new Person { Id = 1, Name = "joydip" };
+            Person third = new Person { Id = 2, Name = "sunil" };
+
+            //oevrload the == and != operators in the Person class or he following equality checking
+            if (third == first)
+            {
+                Console.WriteLine("same");
+            }
+            else
+            {
+                Console.WriteLine("not same");
+            }
+            //override the Equals method from Objec class in he Peson class for the following equality checkin
+            if (third.Equals(first))
+            {
+                Console.WriteLine("same");
+            }
+            else
+            {
+                Console.WriteLine("not same");
+            }
+        }
+        static void SetDemo()
+        {
+            //Set of built-in value types
             HashSet<int> set = new HashSet<int>();
             set.Add(1);
             set.Add(2);
@@ -70,24 +143,33 @@ namespace Collections_Demo
             {
                 Console.WriteLine(item);
             }
-
             Console.WriteLine("\n");
-            */
-            HashSet<Person> people = new HashSet<Person>();
-            //Object initializer (3.0 -2007)
-            Person first = new Person { Id = 1, Name = "anil" };
-            Person second = new Person { Id = 2, Name = "sunil" };
-            Person third = new Person { Id = 1, Name = "anil" };
 
-            people.Add(first); //first.GetHashCode() => first.Equals(other)
-            people.Add(second);
-            people.Add(third);
+            //Set of user deffined types
+
+            //Object initializer (3.0 -2007)
+            Person first = new Person { Id = 3, Name = "anil" };
+            Person second = new Person { Id = 1, Name = "joydip" };
+            Person third = new Person { Id = 2, Name = "sunil" };
+
+            HashSet<Person> people = new HashSet<Person>();
+
+            //set uses GetHashCode and Equals method of Object class for equality between the instances, hence it is must for a developer to override those methods in the user-defined (Person) type
+
+            people.Add(first); //first.GetHashCode() [reference/Id]
+            people.Add(second);//second.GetHashCode() [reference/Id]
+            people.Add(third); //third.GetHashCode() [reference/Id] and third.Equals(first)
 
             foreach (Person item in people)
             {
                 //Console.WriteLine(item.ToString());
                 Console.WriteLine(item);
             }
+        }
+
+        static void Main()
+        {
+
         }
     }
 }

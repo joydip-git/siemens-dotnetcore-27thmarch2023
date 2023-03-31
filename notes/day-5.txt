@@ -1,0 +1,28 @@
+1. Collections
+	List<T>, HashSet<T>
+
+	HashSet<string> set = new HashSet<string>();
+	set.Add("siemens"); //"siemens".GetHashCode()
+	set.Add("siemens"); //"siemens".GetHashCode() and "siemens".Equals("siemens")
+
+2. Collection:
+
+	A. Internalization of Sorting: (sorting logic is internal to the user-defined type)
+	IComparable, IComparable<T> (System namespace)
+	a. IComparable: int CompareTo(object obj)
+	b. IComparable<T>: int CompareTo(T other)
+
+	Use Case:
+	If you want to create a List of user-defined type and then sort the list using Sort() method, you must implement either of the above two interfaces in that user-defined type, since the Sort() calls the CompareTo method in order to compare one object with another
+
+	B. Externalization of Sorting: (sorting logic is external to the user-defined type)
+	IComparer, IComparer<T> (System.Collecttions.Generic)
+	a. IComparer: int Compare(Object x, Object y)
+	a. IComparer<T>: int Compare(T x, T y)
+
+	Use Case:
+	If you want to create a List of user-defined type and then sort the list using Sort() method 
+	i. based on choice, and/or
+	ii. you do not want to write the sorting logic inside the user-defined type using CompareTo mehod, 
+	you must implement either of the above two interfaces in an external type (not user-defined type) and then create an instance of that type and supply the same to Sort() method as parameter. In that case, Sort() method will call the Compare() method present in that external type.
+
